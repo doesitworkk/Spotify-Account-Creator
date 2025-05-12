@@ -1,32 +1,32 @@
 {
     "settings": {
         "Threads": 3,
-        "Create_Username": "y or n",
-		"Create_Avatar": "y or n",
-        "Use_Proxy": "y or n",
-        "Change_Avatar": "y or n",
+        "Create_Username": "y",
+		"Create_Avatar": "y",
+        "Use_Proxy": "y",
+        "Change_Avatar": "y",
         "Debug_Mode": "if you are not a developer, do not touch this value!! (if you're going to change you can just do 'y')"
     },
 	
     "target_settings": {
-        "Use_Target": "y or n",
+        "Use_Target": "y",
         "Target_To": 10
     },
 
     "follow_ids": {
-        "Account_IDs": ["account id1", "account id2", "account id 3 (u can put as many as you want)"],
-        "Playlist_IDs": ["playlist id1", "playlist id2 (u can put as many as you want)"],
-        "Artist_IDs": ["artist id1", "artist id (u can put as many as you want)"]
+        "Account_IDs": ["https://open.spotify.com/user/3126bbemerpu7kpqa3rlnijszawa?si=5bf0300bf57e42f6"],
+        "Playlist_IDs": ["https://open.spotify.com/playlist/57sXD6bNNouDlmvBKiRH4U?si=f287b0f28e704ce6,https://open.spotify.com/playlist/5HNMUDSMbn4Ad8CIc52Q5G?si=f056c6fbbc8b49fa"],
+        "Artist_IDs":
     },
 
     "follow_types": {
-        "Profile": "y or n",
-        "Playlist": "y or n",
-        "Artist": "y or n"
+        "Profile": "y",
+        "Playlist": "y",
+        "Artist": "n"
     },
 
     "save_methods": {
-        "SQLite": "y or n",
-        "Text_File": "y or n"
+        "SQLite": "y",
+        "Text_File": "y"
     }
 }
